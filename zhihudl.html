@@ -6,65 +6,69 @@
 	<link rel="stylesheet" type="text/css" href="css/zhihudl.css">
 </head>
 <body>
-	<div class = "index-main">
-		<div class = "index-main-body">
-			<div class = "index-header">
+	<div class = "main">
+		<div class = "main-body">
+			<div class = "header">
 				<h1 class = "logo hide-text">知乎</h1>
 				<h2 class = "subtitle">与世界分享你的知识、经验和见解</h2>
-			<div class = "desk-front sign-flow clearfix sign-flow-simple">
-				<div class = "index-tab-navs">
+			</div><!--header结束-->
+			<div class = "desk-front sign-flow">
+				<div class = "tab-navs">
 					<div class = "navs-slider">
 						<a href = "#signup" class = "active">注册</a>
 						<a href = "#signin">登录</a>
 						<span class = "navs-slider-bar"></span>
 					</div><!--navs-slider结束-->
-				</div><!--index-tab-navs结束-->
-				<div class = "view view-signin">
+				</div><!--tab-navs结束-->
+				<div class = "view view-signin" data-za-module = "SignInForm">
 					<form>
 						<input type = "hidden" name = "_xsrf"></input>
 						<div class = "group-inputs">
 							<div class = "email input-wrapper">
-								<input type = "text" name = "account" aria-label = "手机号或邮箱" placeholder = "手机号或邮箱"></input>
-							</div><!--email in put-wrapper结束-->
+								<input type = "text" name = "account" aria-lable = "手机号或邮箱" placeholder = "手机号或邮箱"></input>
+							</div><!--email input-wrapper结束-->
 							<div class = "input-wrapper">
-								<input type = "password" name = "password" aria-label = "密码" placeholder= "密码"></input>
+								<input type = "password" name = "password" aria-lable = "密码" placeholder = "密码"></input>
 							</div><!--input-wrapper结束-->
-							<div class = "captcha input-wrapper">
-								<div class = "captcha-operate"></div><!--captcha-operate结束-->
-								<div class = "captcha-imageconatiner"></div><!--captcha-imageconatiner结束-->
-							</div><!--captcha input-wrapper结束-->
+							<!--<div class = "input-wrapper captcha-module"></div>input-wrapper captcha-module结束，也就是验证码-->
 						</div><!--group-inputs结束-->
-						<div class = "button-wrapper commmand">
+						<div class = "button-wrapper command">
 							<button class = "sign-button submit" type = "submit">登录</button>
-						</div><!--button-wrapper commmand结束-->
+						</div><!--button-wrapper command结束，即登录-->
 						<div class = "signin-misc-wrapper clearfix">
 							<label class = "remember-me">
-								<input type = "checkbox" name = "remember_me" checked value = "true"></input>
-								记住我
+								<input type = "checkbox" name = "remember_me" checked = "true">记住我</input>
 							</label>
-							<a href = "unable-login" href = "#">无法登录</a>
-						</div><!--signin-misc-wrapper clearfix结束-->
+							<a href = "#" class = "unable-login">无法登陆?</a>
+						</div><!--sign-misc-wrapper结束-->
 						<div class = "weibo-signup-wrapper">
-							<span class = "name js-toggle-sns-buttons">社交账号登录</span>
-							<div class = "sns-buttons">
-								<a href = "#" title = "微信登录" class = "js-bindwechat">
-									<i></i>
-								</a>
-								<a href = "#" title = "微博登录" class = "js-bindweibo">
-									<i></i>
-								</a>
-								<a href = "#" class = "QQ 登录" class = "js-bindqq">
-									<i></i>
-								</a>
-							</div><!--sns-buttons结束-->
-							</div><!--weibo-signup-wrapper结束-->
+							<span>社交账号登录</span>
+						</div><!--weibo-signup-wrapper结束-->
 					</form>
 				</div><!--view view-signin结束-->
 				<div class = "view view-signup"></div><!--view view-signup结束-->
-			<div class = "qrcode-app-download"></div><!--qrcode-app-download结束-->
-			</div><!--desk-front sign-flow clearfix sign-flow-simple结束-->
-			</div><!--index-header结束-->
-		</div><!--index-main-body结束-->
-	</div><!--index-main结束-->
+			</div><!--desk-front结束-->
+			<div class = "qrcode-app-download">
+				<a href="/app/?ct=weidengluyemian&amp;utm_source=weidengluyemian&amp;utm_medium=pc_download_app_button&amp;utm_campaign=downloadlink" class="app-link">
+				<i class="sprite-index-icon-qrcode"></i>
+				<span class="text">下载知乎 App</span>
+				</a>
+			</div><!--qrcode-app-download结束-->
+		</div><!--main-body结束-->
+	</div><!--main结束-->
+	<div class = "footer">
+		<span>@ 2016 知乎</span>
+		<span class = "dot">.</span>
+		<a href="#" target="_blank">知乎圆桌</a>
+		<span class = "dot">.</span>
+		<a href = "#" target = "_blank">发现</a>
+		<span class = "dot">.</span>
+		<a href = "#" target = "_blank">移动应用</a>
+		<span class = "dot">.</span>
+		<a href = "来知乎工作" target = "_blank"></a>
+		<a href = "#" target = "_blank">京 ICP 备 13052560</a>
+		<span class = "dot">.</span>
+		<span>京公网安备 11010802010035 号</span>
+	</div><!--footer结束-->
 </body>
 </html>
