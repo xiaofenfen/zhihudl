@@ -1,9 +1,187 @@
 body{
 	margin: 0;
 	padding: 0;
-	height: 100%;
-	font-size:15px;
+	color: #555;
+	font-size: 15px;
 	line-height: 1.7;
-	font-family: 'Microsoft YaHei';
+	font-family: 'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif;
 	background: #f7fafc;
+}
+.main{
+	height: auto;
+	text-align: center;
+}
+.main-body{
+	margin: auto;
+	padding: 40px 0;
+	width: 300px;
+	min-height: 510px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	white-space: normal;
+}
+.header{
+	text-align: center;
+}
+.header .logo{
+	margin: 0 auto;
+	width: 160px;
+	height: 74px;
+	background: url(../images/logo.6837e927.png) no-repeat;
+	background-size: contain;
+}
+.hide-text{
+	font :0/0 a;
+}
+.header .subtitle{
+	margin: 30px 0;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1;
+}
+.tab-navs{
+	margin-bottom: 10px;
+	font-size: 18px;
+	text-align: center;
+}
+.tab-navs .navs-slider{
+	position: relative;
+	display: inline-block;
+}
+.tab-navs a.active{
+	opacity: 1;
+	color: #3291d9;
+}
+.tab-navs a{
+	float: left;
+	width: 4em;
+	line-height: 35px;
+	opacity: .7;
+}
+a{
+	text-decoration: none;
+}
+.navs-slider-bar{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin: 0 .8em;
+	width: 2.4em;
+	height: 2px;
+	background: #5f984c;
+}
+form{
+	display: block;
+	margin-top: 0em;
+}
+input{
+	margin: 0;
+	font-family:initial;
+	font-size: 100%;
+}
+.sign-flow .view .group-inputs{
+	padding: 1px 0;
+	border:1px solid #d5d5d5;
+	border-radius: 3px;
+}
+.input-wrapper{
+	position: relative;
+	margin: 0;
+	overflow: hidden;
+}
+.input-wrapper input{
+	border:0;
+	border-radius: 0;
+	box-shadow: none;
+	background: #fff;
+	padding: 1em .8em;
+	width: 100%;
+	box-sizing: border-box;
+}
+.input-wrapper+.input-wrapper{
+	border-top: 1px solid #e8e8e8
+}
+.button-wrapper ,.sign-flow .view{
+	margin-top: 18px;
+}
+.sign-button{
+	background: #5bb8ff;
+	box-shadow: none;
+	border:0;
+	border-radius: 3px;
+	line-height: 41px;
+	color: #fff;
+	display: block;
+	padding: 0;
+	width: 100%;
+	font-size: 15px;
+	text-align:center;
+	text-shadow: 0 1px 1px rgba(0,0,0,.2)
+}
+button{
+	margin: 0;
+	font-family: inherit;
+}
+.sign-flow .view .signin-misc-wrapper,.weibo-signup-wrapper{
+	margin-top: 18px;
+}
+.sign-flow .view{
+	font-size: 14px;
+	text-align: left;
+}
+.remember-me{
+	float: left;
+}
+.sign-flow .view .signin-misc-wrapper .unable-login{
+	float: right;
+}
+.sign-flow a{
+	color: inherit;
+}
+.sign-flow .weibo-signup-wrapper .name{
+	vertical-align: middle;
+	color: #787878;
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix:before,.clearfix:after{
+	display: table;
+	content: "";
+}
+
+/*some comment*/
+.qrcode-app-download{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+.qrcode-app-download .app-link{
+	display: block;
+	width: 160px;
+	height: 42px;
+	line-height: 40px;
+	color: #6b9cbd;
+	text-align: center;
+	border:1px solid #e8e8e8;
+	border-radius: 3px;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.sprite-index-icon-qrcode{
+	background-position: 0 -40px;
+	width: 15px;
+	height: 15px;
+}
+.footer{
+	font-size: 12px;
+	line-height: 42px;
+	text-align: center;
+}
+.footer span,.footer a{
+	color: #aebdc9;
+}
+.footer .dot{
+	margin:0 3px;
 }
